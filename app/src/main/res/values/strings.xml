@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">ProjetRechercheEmploi</string>
+    <string name="app_bienvenu">BIENVENU SUR NOTRE PLATEFORME DE RECHERCHE EMPLOIE</string>
+    <string name="app_a">Sur cette plateforme, vous pouvez déposer votre cv.  Ainsi, les potentiels recruteurs peuvent voir à  tout moment votre cv et vous contacter</string>
+    <string name="button_save_employee">Envoyer</string>
+    <string name="form_id">Id</string>
+    <string name="form_prenom">Prenom</string>
+    <string name="form_nom">Nom</string>
+    <string name="form_age">Age</string>
+    <string name="form_adresse">Adresse</string>
+    <string name="form_email">Email</string>
+    <string name="form_specialite">Specialite</string>
+    <string name="form_telephone">Telephone</string>
+    <string name="form_niveauetude">NiveauEtude</string>
+    <string name="form_experienceProfessionnelle">EperienceProfessionnelle</string>
+</resources>

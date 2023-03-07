@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="25dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/form_textFieldPrenom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:hint="@string/form_prenom"
+            android:minHeight="48dp"/>
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/form_textFieldNom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:hint="@string/form_nom"
+            android:minHeight="48dp"/>
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/form_textFieldAge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:hint="@string/form_age"
+            android:minHeight="48dp"/>
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/form_textFieldAdresse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:hint="@string/form_adresse"
+            android:minHeight="48dp"/>
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/form_textFieldEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:hint="@string/form_email"
+            android:minHeight="48dp"/>
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/form_textFieldTelephone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:hint="@string/form_telephone"
+            android:minHeight="48dp"/>
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/form_textFieldSpecialite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:hint="@string/form_specialite"
+            android:minHeight="48dp"/>
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/form_textFieldNiveauEtude"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:hint="@string/form_niveauetude"
+            android:minHeight="48dp"/>
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/form_textFieldExperienceProfessionnelle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:hint="@string/form_experienceProfessionnelle"
+            android:minHeight="48dp"/>
+    </LinearLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/form_buttonSave"
+        android:text="@string/button_save_employee"
+        android:layout_alignParentBottom="true"
+        android:minHeight="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>
